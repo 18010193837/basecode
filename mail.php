@@ -1,7 +1,7 @@
 <?php
 /**
 *mail函数带附件
-*整理人 yaqi.wang
+*整理人 wang
 *字串以此串定界。所有子段都以“--”+boundary开始，父段则以“--”+boundary+”--”结束。
 */
 class Util_Ccmail{
@@ -133,16 +133,16 @@ class Util_Ccmail{
 	// $subject = "subject";
 
 	// //收件人
-	// $sendto = 'yaqi.wang@fengjr.com';
+	// $sendto = 'wang@f.com';
 	
 	// //發件人
-	// $replyto = 'yaqi.wang@fengjr.com';
+	// $replyto = 'wang@f.com';
 	
 	// //內容
-	// $message = "用户留言:123456<br>其他手机信息:1801019383<br>信息来源:PC<br>";
+	// $message = "用户留言:123456<br>";
 	
 	// //附件
-	// $filename = ['/www/web/CallCenter/upload/201610/580874a34cf93.png','/www/web/CallCenter/upload/201610/580870307465a.jpg','/www/web/CallCenter/upload/201610/580870307465a.jpg'];
+	// $filename = ['201610/580874a34cf93.png','/201610/580870307465a.jpg','/201610/580870307465a.jpg'];
 	
 	// //附件類別
 	// //$mimetype = ["image/jpeg","image/jpeg"];
